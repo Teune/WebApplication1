@@ -15,35 +15,59 @@ namespace TonysPizzeria.Pages
                 TomatoSauce=true,
                 Cheese=true,
                 FinalPrice=4},
-
              new PizzasModel(){
                 ImageTitle="Pepperoni",
                 PizzaName="Pepperoni",
                 BasePrice=2,
                 TomatoSauce=true,
                 Cheese=true,
-                FinalPrice=4},
+                Pepperoni=true,
+                FinalPrice=8},
              new PizzasModel(){
                 ImageTitle="Carbonara",
                 PizzaName="Carbonara",
                 BasePrice=2,
                 TomatoSauce=true,
                 Cheese=true,
-                FinalPrice=4},
+                FinalPrice=12},
              new PizzasModel(){
                 ImageTitle="Hawaiian",
                 PizzaName="Hawaiian",
                 BasePrice=2,
                 TomatoSauce=true,
                 Cheese=true,
-                FinalPrice=4},
+                Pineapple=true,
+                FinalPrice=10},
             new PizzasModel(){
-                ImageTitle="Hawaiian",
-                PizzaName="Hawaiian",
+                ImageTitle="Bolognese",
+                PizzaName="Bolognese",
                 BasePrice=2,
                 TomatoSauce=true,
                 Cheese=true,
-                FinalPrice=4}
+                FinalPrice=7},
+            new PizzasModel(){
+                ImageTitle="Seafood",
+                PizzaName="Seafood",
+                BasePrice=2,
+                TomatoSauce=true,
+                Cheese=true,
+                FinalPrice=13 },
+            new PizzasModel(){
+                ImageTitle="Vegetarian",
+                PizzaName="Vegetarian",
+                BasePrice=2,
+                TomatoSauce=true,
+                Cheese=true,
+                FinalPrice=5},
+            new PizzasModel(){
+                ImageTitle="MeatFeast",
+                PizzaName="MeatFeast",
+                BasePrice=2,
+                TomatoSauce=true,
+                Cheese=true,
+                Beef=true,
+                Ham=true,
+                FinalPrice=10}
 
         };
         public void OnGet()
