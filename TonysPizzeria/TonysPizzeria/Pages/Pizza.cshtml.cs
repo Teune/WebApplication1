@@ -15,7 +15,8 @@ namespace TonysPizzeria.Pages
                 TomatoSauce=true,
                 Cheese=true,
                 FinalPrice=4},
-             new PizzasModel(){
+
+            new PizzasModel(){
                 ImageTitle="Pepperoni",
                 PizzaName="Pepperoni",
                 BasePrice=2,
@@ -23,6 +24,7 @@ namespace TonysPizzeria.Pages
                 Cheese=true,
                 Pepperoni=true,
                 FinalPrice=8},
+
              new PizzasModel(){
                 ImageTitle="Carbonara",
                 PizzaName="Carbonara",
